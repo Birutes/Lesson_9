@@ -1,23 +1,21 @@
 function sumNumber(a, b) {
-	var sum = a + b;
-	return sum;
+	return a + b;
 }
 
 function sumArray(array) {
-    var total = 0;
-    for (var i = 0; i < array.length; i++) {
-        total += array[i];
-    }
-    return total;
+  var total = 0;
+  for (var i = 0; i < array.length; i++) {
+      total += array[i];
+  }
+  return total;
 }
 
 function findSmallest(a, b, c) {
 	return Math.min(a, b, c);
 }
 
-function farenheitToCelsius(a){
-	var total = Math.round((a - 32) * 5 / 9);
-	return total;
+function farenheitToCelsius(farenheit){
+	return Math.round((farenheit - 32) * 5 / 9);;
 }
 
 function reverse(a) {
